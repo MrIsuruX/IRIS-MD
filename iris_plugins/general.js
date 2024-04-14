@@ -48,7 +48,7 @@ CONDITIONS IT CAN LEADS TO TERMINATE UR ACCOUNT FROM THAT PLATFORM
 
 
 const {
-    leo,
+    iris,
     commands,
     isPublic
 } = require("../lib/commands.js");
@@ -58,7 +58,7 @@ const font = require("@viper-x/fancytext");
 // Type 1: Group Management Commands
 //───────────────────────────────────
 
-leo({
+iris({
     name: "mute",
     fromMe: isPublic,
     desc: "Mutes the group.",
